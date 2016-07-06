@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
+void main()
 {
  char ch;
  clrscr();
@@ -10,6 +10,5 @@ int main()
   printf("\n Character is a alphabet");
  else
   printf("\n Not an alphabet");
- getch();
- return 0;
+ getch()
 }
